@@ -55,6 +55,12 @@ header {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.tile:hover {
+    transition: cubic-bezier(.05, 1.50, .90, 1.50) 0.2s;
+    transform: scale(1.02);
+
+}
+
 .tile-share-button {
   margin: 8px;
   width: 40px;
